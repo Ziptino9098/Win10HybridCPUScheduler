@@ -17,7 +17,7 @@ bcdedit /set testsigning on
 2. Reboot
 3. Copy to C:\Windows\System32\drivers
 4. Run as Administrator:
-sc create HybridCPU type= kernel start= auto binPath= "C:\Windows\System32\drivers\HybridCPU.sys"
+sc create HybridCPU type= kernel start= system binPath= "C:\Windows\System32\drivers\HybridCPU.sys"
 sc start HybridCPU
 
 ### Files
