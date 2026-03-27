@@ -1,4 +1,4 @@
-## CoreDirector v1.0.0
+## HyrbridCPUWin10
 
 Hybrid CPU scheduler kernel driver for Windows 10 on Intel 12th gen and newer processors.
 
