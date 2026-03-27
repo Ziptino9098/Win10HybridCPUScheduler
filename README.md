@@ -15,7 +15,8 @@ Hybrid CPU scheduler kernel driver for Windows 10 on Intel 12th gen and newer pr
 1. Enable test signing:
 bcdedit /set testsigning on
 2. Reboot
-3. Run as Administrator:
+3. Copy to C:\Windows\System32\drivers
+4. Run as Administrator:
 sc create HybridCPU type= kernel start= auto binPath= "C:\Windows\System32\drivers\HybridCPU.sys"
 sc start HybridCPU
 
